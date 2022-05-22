@@ -21,7 +21,12 @@ public class Application {
 		}
 		
 	}	
-    
+
+	public String testPrint(String prova){
+		return prova;
+
+	}
+
     public Application() {
         System.out.println ("Inside Application");
     }
@@ -34,6 +39,7 @@ public class Application {
 		
 		int count = app.countWords("I jave four words");
 		System.out.println("Word count: " + count);
-		
+
+		System.out.println(app.testPrint("ciao"));
     }
 }
