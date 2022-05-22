@@ -7,6 +7,7 @@ import org.apache.commons.lang3.StringUtils;
 public class Application {
 	
 	public int countWords(String words){
+		//Add a comment for test merge
 		String[] separateWords = StringUtils.split(words, ' ');
 		return (separateWords == null) ? 0 : separateWords.length;
 	}
@@ -34,6 +35,8 @@ public class Application {
 		
 		int count = app.countWords("I jave four words");
 		System.out.println("Word count: " + count);
+
+		System.out.println("Test merge");
 		
     }
 }
